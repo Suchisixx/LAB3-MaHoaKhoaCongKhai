@@ -22,8 +22,8 @@
 ---
 ## 3. Hướng dẫn chuẩn bị cơ sở dữ liệu Oracle
 1. Mở SQL Developer (hoặc SQL*Plus), kết nối vào PDB `FREEPDB1` bằng tài khoản quản trị (`SYS` / `SYSTEM`).
-2. Mở và chạy script `03_ORACLE/01_Tao_User_Oracle.sql` (bấm **F5 - Run Script**) để tạo user `lab3_user` với mật khẩu `LabUser@2026`.
-3. Tạo kết nối mới bằng tài khoản `lab3_user` (Hostname: `127.0.0.1`, Port: `1521`, Service Name: `FREEPDB1`, Password: `LabUser@2026`).
+2. Mở và chạy script `03_ORACLE/01_Tao_User_Oracle.sql` (bấm **F5 - Run Script**) để tạo user `lab3_user` với mật khẩu ``.
+3. Tạo kết nối mới bằng tài khoản `lab3_user` (Hostname: `127.0.0.1`, Port: `1521`, Service Name: `FREEPDB1`, Password: ``).
 4. Mở và chạy script `03_ORACLE/02_Tao_Bang_Oracle.sql` (bấm **F5**) để tạo bảng `lab3_user.History`.
 ---
 ## 4. Hướng dẫn chạy chương trình Java (NetBeans)
